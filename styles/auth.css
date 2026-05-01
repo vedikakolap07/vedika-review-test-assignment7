@@ -1,0 +1,37 @@
+.auth-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100vh;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.auth-form {
+    flex: 1;
+    max-width: 400px;
+    padding: 20px;
+    background-color: #f6f6f6;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+.decorative-element {
+    flex: 1;
+    background: url('../images/decorative-background.png') no-repeat center center;
+    background-size: cover;
+    border-radius: 5px;
+}
+
+@media (max-width: 768px) {
+    .auth-container {
+        flex-direction: column;
+    }
+    .auth-form {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+    .decorative-element {
+        width: 100%;
+    }
+}

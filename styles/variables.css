@@ -1,0 +1,35 @@
+/* CSS Custom Properties for Design System */
+
+:root {
+    /* Colors */
+    --primary-color: #3498db; /* Blue */
+    --secondary-color: #2ecc71; /* Green */
+    --accent-color: #e74c3c; /* Red */
+    --background-color: #ecf0f1; /* Light Gray */
+    --text-color: #2c3e50; /* Dark Gray */
+
+    /* Spacing */
+    --spacing-xs: 4px;
+    --spacing-sm: 8px;
+    --spacing-md: 16px;
+    --spacing-lg: 32px;
+    --spacing-xl: 64px;
+
+    /* Typography */
+    --font-family-base: 'Arial', sans-serif;
+    --font-size-base: 16px;
+    --font-size-lg: 20px;
+    --font-size-sm: 14px;
+
+    /* Shadows */
+    --shadow-small: 0px 1px 2px rgba(0, 0, 0, 0.1);
+    --shadow-medium: 0px 4px 12px rgba(0, 0, 0, 0.1);
+    --shadow-large: 0px 8px 24px rgba(0, 0, 0, 0.1);
+
+    /* Responsive Breakpoints */
+    --breakpoint-xs: 480px;
+    --breakpoint-sm: 768px;
+    --breakpoint-md: 1024px;
+    --breakpoint-lg: 1200px;
+    --breakpoint-xl: 1400px;
+}

@@ -1,0 +1,29 @@
+{
+  "name": "prescription-frontend",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Frontend for Online Prescription Platform (Vite + React + TS)",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@hookform/resolvers": "^2.9.11",
+    "jspdf": "^4.2.1",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-hook-form": "^7.45.0",
+    "react-qr-code": "^2.0.6",
+    "react-router-dom": "^6.17.0",
+    "react-toastify": "^9.1.1",
+    "zod": "^3.23.1"
+  },
+  "devDependencies": {
+    "@types/react": "^18.2.21",
+    "@types/react-dom": "^18.2.7",
+    "@vitejs/plugin-react": "^4.0.0",
+    "typescript": "^5.3.3",
+    "vite": "^5.2.0"
+  }
+}
